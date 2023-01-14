@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log In | Graspear</title>
+	<link rel="stylesheet" type="text/css" href="stylelogin.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<h1 style=" font-family: Montserrat, sans-serif">Graspear  Solutions Pvt Ltd</h1>
+			<ul id="navli">
+				<li><a class="homeblack" href="index.html">HOME</a></li>
+				<li><a class="homered" href="elogin.html">Student Login</a></li>
+				<li><a class="homeblack" href="alogin.html">Admin Login</a></li>
+				
+			</ul>
+		</nav>
+	</header>
+	<div class="divider"></div>
+
+	<div class="loginbox">
+    <img src="assets/avatar.jpg" class="avatar">
+	
+        <h1 style=" font-family: Montserrat, sans-serif">Login Here</h1>
+		
+        <form action="process/eprocess.php" method="POST">
+            <p style=" font-family: Montserrat, sans-serif">Email</p>
+            <input type="text" name="mailuid" placeholder="Enter Email Address" required="required">
+            <p style=" font-family: Montserrat">Password</p>
+            <input type="password" name="pwd" placeholder="Enter Password" required="required">
+            <input style=" font-family: Montserrat, sans-serif" type="submit" name="login-submit" value="Login">
+           
+        </form>
+        
+    </div>
+			
+			
+</body>
+</html>
