@@ -44,7 +44,7 @@ $result = mysqli_query($conn, $sql);
 				<th align = "center">Submission Date</th>
 				
 				<th align = "center">Status</th>
-				<th align = "center">Option</th>
+				
 				
 			</tr>
 
