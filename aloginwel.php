@@ -63,10 +63,6 @@ $result = mysqli_query($conn, $sql);
 
 		</table>
 
-		<div class="p-t-20">
-			<button class="btn btn--radius btn--green" type="submit" style="float: right; margin-right: 60px"><a href="reset.php" style="text-decoration: none; color: white"> Reset Points</button>
-		</div>
-
 		
 	</div>
 </body>
